@@ -1,0 +1,19 @@
+{
+  "name": "node2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DinhoRyoh/node2.git"
+  },
+  "author": "DinhoRyoh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DinhoRyoh/node2/issues"
+  },
+  "homepage": "https://github.com/DinhoRyoh/node2#readme"
+}
