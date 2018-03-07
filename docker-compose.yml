@@ -1,0 +1,17 @@
+version: '3.5'
+services:
+  dev:
+    image: node:latest
+    user: "1000:1000"
+    command: bash
+    working_dir: /app
+    volumes:
+    - .:/app
+  server:
+    image: node:9.5
+    working_dir: /app
+    command: node_modules/.bin/nodemon index.js
+    volumes:
+      - .:/app
+    ports:
+      - "8000:8000"
